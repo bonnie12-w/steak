@@ -7,8 +7,8 @@ import { useCart } from "@/context/CartContext";
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Menu", href: "/menu" },
-  { name: "Reservations", href: "/#reservations" },
-  { name: "About", href: "/#about" },
+  { name: "Reservations", href: "/reservations" },
+  { name: "About", href: "/about" },
 ];
 
 const Navbar = () => {
@@ -39,9 +39,9 @@ const Navbar = () => {
           <span className="text-2xl">🔥</span>
           <div>
             <h1 className="font-display text-lg sm:text-xl font-bold gold-gradient-text leading-tight">
-              Savannah Flame
+              Porkys Barbecue
             </h1>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground">Grill</p>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground">PB</p>
           </div>
         </Link>
 
