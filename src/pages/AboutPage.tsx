@@ -23,7 +23,7 @@ const AboutPage = () => {
             >
               <p className="text-primary tracking-[0.3em] uppercase text-xs mb-4">Our Story</p>
               <h1 className="font-display text-4xl sm:text-5xl font-bold text-foreground">
-                About <span className="gold-gradient-text italic">The Landmark Bistro</span>
+                About <span className="gold-gradient-text italic">Porkys Barbecue</span>
               </h1>
             </motion.div>
 
@@ -34,7 +34,9 @@ const AboutPage = () => {
               className="max-w-3xl mx-auto text-center"
             >
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                Indulge in a symphony of taste at our bistro & savor every bite with handcrafted cocktails.
+                ☆White Meat Restaurant.
+                ☆The newest barbecue experience in Nairobi.
+                ☆African inspired cuisine.
               </p>
             </motion.div>
 
@@ -85,8 +87,8 @@ const AboutPage = () => {
               {[
                 { icon: MapPin, text: "Westlands, Nairobi, Kenya" },
                 { icon: Phone, text: "+254 712 345 678" },
-                { icon: Mail, text: "hello@TheLandmarkBistro.co.ke" },
-                { icon: Instagram, text: "@The Landmark Bistro" },
+                { icon: Mail, text: "hello@PorkysBarbecue.co.ke" },
+                { icon: Instagram, text: "@Porkys Barbecue" },
                 { icon: Clock, text: "Mon – Sun: 11:00 AM – 11:00 PM" },
               ].map((item, i) => (
                 <p key={i} className="flex items-center gap-4 text-muted-foreground">
