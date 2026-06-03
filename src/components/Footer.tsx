@@ -14,7 +14,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Nairobi's premier Barbecue
+              Your fav cozy café spot ☕🍰
             </p>
           </div>
 
@@ -22,7 +22,7 @@ const Footer = () => {
             <h4 className="font-display font-semibold text-foreground mb-4">Contact</h4>
             <div className="space-y-3 text-sm text-muted-foreground">
               <p className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-primary" /> Westlands, Nairobi, Kenya
+                <MapPin className="w-4 h-4 text-primary" /> killimani, Nairobi, Kenya
               </p>
               <p className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-primary" /> +254 712 345 678
