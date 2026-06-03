@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-2xl">🔥</span>
               <div>
-                <h3 className="font-display text-xl font-bold gold-gradient-text">Porkys Barbecue</h3>
-                <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground">pb</p>
+                <h3 className="font-display text-xl font-bold gold-gradient-text">ZarafaLounge</h3>
+                <p className="text-[10px] tracking-[0.3em] uppercase text-muted-foreground">ZR</p>
               </div>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -28,10 +28,10 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-primary" /> +254 712 345 678
               </p>
               <p className="flex items-center gap-3">
-                <Mail className="w-4 h-4 text-primary" /> hello@PorkysBarbecue.co.ke
+                <Mail className="w-4 h-4 text-primary" /> hello@ZarafaLounge.co.ke
               </p>
               <p className="flex items-center gap-3">
-                <Instagram className="w-4 h-4 text-primary" /> @Porkys Barbecue
+                <Instagram className="w-4 h-4 text-primary" /> @Zarafa Lounge
               </p>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-12 pt-8 text-center text-xs text-muted-foreground/50">
-          © 2026 Porkys Barbecue. All rights reserved.
+          © 2026 Zarafa Lounge. All rights reserved.
         </div>
       </div>
     </footer>
