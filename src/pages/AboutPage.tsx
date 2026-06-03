@@ -23,7 +23,7 @@ const AboutPage = () => {
             >
               <p className="text-primary tracking-[0.3em] uppercase text-xs mb-4">Our Story</p>
               <h1 className="font-display text-4xl sm:text-5xl font-bold text-foreground">
-                About <span className="gold-gradient-text italic">Porkys Barbecue</span>
+                About <span className="gold-gradient-text italic">Zarafa Lounge</span>
               </h1>
             </motion.div>
 
@@ -34,9 +34,7 @@ const AboutPage = () => {
               className="max-w-3xl mx-auto text-center"
             >
               <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                ☆White Meat Restaurant.
-                ☆The newest barbecue experience in Nairobi.
-                ☆African inspired cuisine.
+                Fresh brews • Tasty bites • Chill vibes
               </p>
             </motion.div>
 
@@ -85,10 +83,10 @@ const AboutPage = () => {
               className="max-w-xl mx-auto glass-card rounded-2xl p-8 sm:p-10 space-y-5"
             >
               {[
-                { icon: MapPin, text: "Westlands, Nairobi, Kenya" },
+                { icon: MapPin, text: "killimani, Nairobi, Kenya" },
                 { icon: Phone, text: "+254 712 345 678" },
-                { icon: Mail, text: "hello@PorkysBarbecue.co.ke" },
-                { icon: Instagram, text: "@Porkys Barbecue" },
+                { icon: Mail, text: "hello@Zarafalounge.co.ke" },
+                { icon: Instagram, text: "@Zarafa Lounge" },
                 { icon: Clock, text: "Mon – Sun: 11:00 AM – 11:00 PM" },
               ].map((item, i) => (
                 <p key={i} className="flex items-center gap-4 text-muted-foreground">
